@@ -745,3 +745,94 @@ padding: 15px 15px;
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+.project-card {
+  border: 1px solid #1e1e48;
+  border-radius: 12px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right,
+    #020412,
+    #050718,
+    #080a1c
+  );
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.25);
+}
+
+.project-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-body {
+  padding: 15px;
+}
+
+.project-body h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.project-body p {
+  color: #b8b8d0;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.tags span {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: rgba(139, 92, 246, 0.15);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: #c5b1b1;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.project-buttons a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  transition: 0.3s;
+}
+
+.project-buttons a:first-child {
+  border: 1px solid #8b5cf6;
+}
+
+.project-buttons a:last-child {
+  background: linear-gradient(90deg, #8b2cf5, #4f46e5, #3b82f6);
+}
+
+.project-buttons a:hover {
+  transform: translateY(-2px);
+}
